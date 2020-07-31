@@ -8,8 +8,5 @@ module.exports= (req,res)=>{
                 .then(data=>{
                     return res.status(202).send("successfully deleted the profile with username named= "+req.body.username);
                 })
-                .catch(err=>{
-                    res.status(404).send(err)
-                })
         })
 }
