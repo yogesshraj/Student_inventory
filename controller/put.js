@@ -5,7 +5,4 @@ module.exports = (req,res)=>{
         .then(result=>{
             res.status(202).send("Your profile is updated successfully");
         })
-        .catch(err=>{
-            res.status(404).send(err);
-        })
 }
