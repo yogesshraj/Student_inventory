@@ -17,9 +17,6 @@ module.exports = (req,res)=>{
                         .then(data=>{
                             res.status(202).send("Your data has been inserted successfully!!!")
                         })
-                        .catch(err=>{
-                            res.status(404).send(err);
-                        })
                     })
                 }
             }
