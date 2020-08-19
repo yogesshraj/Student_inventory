@@ -1,4 +1,3 @@
-const knex = require("knex");
 
 module.exports = require("knex")({
     client: "mysql",
